@@ -29,10 +29,6 @@ $remoteKeyParams = @{
     Value = '1'
 }
 
-# Get target computers
-$ComputersFile = "\\Path\Computers.txt"
-$Computers = Get-Content $ComputersFile
-
 # Create the form
 $form = New-Object Windows.Forms.Form
 
